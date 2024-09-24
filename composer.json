@@ -1,0 +1,25 @@
+{
+    "name": "thamm-it/ti-demo",
+    "type": "typo3-cms-extension",
+    "description": "Demonstrate a problem",
+    "authors": [
+        {
+            "name": "Niels Lehmkuhl",
+            "role": "Developer"
+        }
+    ],
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "typo3/cms-core": "^11.5 || ^12.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ThammIT\\TiDemo\\": "Classes"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "ti_demo"
+        }
+    }
+}

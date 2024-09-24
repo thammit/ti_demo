@@ -1,0 +1,14 @@
+plugin.tx_tidemo_plugin {
+    view {
+        # cat=plugin.tx_tidemo_plugin/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:ti_demo/Resources/Private/Templates/
+        # cat=plugin.tx_tidemo_plugin/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:ti_demo/Resources/Private/Partials/
+        # cat=plugin.tx_tidemo_plugin/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:ti_demo/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_tidemo_plugin//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}

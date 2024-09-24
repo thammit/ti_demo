@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:ti_demo/Resources/Private/Language/locallang_db.xlf" date="2024-09-24T11:02:57Z" product-name="ti_demo">
+		<header/>
+		<body>
+			<trans-unit id="tx_tidemo_domain_model_demo" resname="tx_tidemo_domain_model_demo">
+				<source>Demo</source>
+			</trans-unit>
+			<trans-unit id="tx_tidemo_domain_model_demo.title" resname="tx_tidemo_domain_model_demo.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_ti_demo_plugin.name" resname="tx_ti_demo_plugin.name">
+				<source>Plugin</source>
+			</trans-unit>
+			<trans-unit id="tx_ti_demo_plugin.description" resname="tx_ti_demo_plugin.description">
+				<source></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
